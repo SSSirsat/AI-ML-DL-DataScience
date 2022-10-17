@@ -1,0 +1,32 @@
+Regularization is the technique to solve over fitting problem in machine learning algorithms,
+
+In order to prevent over fitting we introduce some penalty term in the machine learning algorithm. This penalty term will deviate the algorithm from original prediction which was due to overfitting thus avoiding over fitting.
+
+The main two techniques of regularization are L1 also known as Lasso Regression and L2 also called as Ridge Regression.
+
+Lasso Regression (L1 Regularization)
+LASSO stands for Least Absolute Shrinkage and Selection Operator. 
+
+The L1 regularization adds a penalty equal to the sum of the absolute value of the coefficients. 
+
+As L1 is having absolute value of coefficients it is prone to outlier.
+
+Error (L1) = Loss Obj + λ * (sum of absolute value of coefficients)
+
+The amount of penalty is controlled by the term lambda and hence it is important to select the appropriate value of lambda.
+
+When λ=0, the penalty term has no effect
+
+Ridge Regression (L2 Regularization)
+The L2 regularization adds a penalty equal to the sum of the squared value of the coefficients.
+
+As L2 is having Squared value of coefficients it is not prone to outlier.
+
+Minimization objective = Loss Obj + λ * (sum of square of coefficients)
+
+Elastic nets 
+Elastic nets combine both L1 and L2 regularization. A penalty is applied to the sum of the absolute values and to the sum of the squared values.
+
+Minimization objective = LS Obj + λ(1- 𝞪)[ (sum of square of coefficients) +  (sum of absolute value of coefficients)]
+
+Here  𝞪 is the ratio between L1 and L2 regularization.
