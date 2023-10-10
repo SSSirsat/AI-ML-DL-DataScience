@@ -1,0 +1,6 @@
+id,first_name,last_name,manager_id
+1,John,Sten,2
+2,Will,Wick,3
+3,Pick,Stol,5
+4,Yiu,John,5
+5,Mia,Jeany,null
