@@ -8,6 +8,8 @@ Step 3: Create new conda environment
 
       - conda create -n tf-gpu tensorflow-gpu
       
+      it will handle everything for you like Cuda Toolkit, CuDNN libraries and Other C++ lib as well
+      
       - conda activate tf-gpu
       
 Step 4: Install depedence libraries as per our Project
