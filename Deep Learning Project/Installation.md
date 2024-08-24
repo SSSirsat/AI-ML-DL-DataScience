@@ -22,7 +22,7 @@
 
       - import tensorflow as tf
       
-      - print("Number of available GPU:", tf.config.list_physical_devices('GPU'))
+      - print("Number of available GPU:", len(tf.config.list_physical_devices('GPU')))
       
       - print(tf.test.is_gpu_available())
       
