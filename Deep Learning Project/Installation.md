@@ -1,4 +1,4 @@
-##Installation Instruction for Deep learning setup in (10 min)
+## Installation Instruction for Deep learning setup in (10 min)
 
 Step 1: Must have Nvidia Graphics card.
 
